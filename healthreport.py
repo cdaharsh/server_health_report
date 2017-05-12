@@ -9,7 +9,7 @@ import threading
 
 
 #allows you give the hostname when you're running the script from the command line
-#ex. python healthreportv4.py aeyxa.com. If you don't specify the hostname at the
+#ex. python healthreportv5.py aeyxa.com. If you don't specify the hostname at the
 #command line you will be prompeted for it when the script begins to execute.
 def get_target():
     if len(sys.argv) == 2:
